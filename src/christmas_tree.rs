@@ -12,13 +12,9 @@ fn main() {
 		Err(_) => panic!("Not a valid number"),
 	};
 
-	// Top
-    println!("{}", " ".repeat(size) + "*" + &" ".repeat(size));
-
-	for i in 1..size {
+	for i in 0..=size {
     	println!("{}", " ".repeat(size-i) + &"*".repeat(1 + (i * 2)));
     }
 
-	// Trunk
-    println!("{}", " ".repeat(size) + "|");
+    println!("{}", " ".repeat(size) + "|"); // Trunk
 }
