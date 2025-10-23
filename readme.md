@@ -9,3 +9,20 @@ Ensure you have `rustc` and run with:
 rustc src/christmas_tree.rs 
 ./christmas_tree
 ```
+
+Example output:
+```
+$ ./christmas_tree 
+What is the size of your christmas tree? 10
+          *          
+         ***
+        *****
+       *******
+      *********
+     ***********
+    *************
+   ***************
+  *****************
+ *******************
+          |
+```
