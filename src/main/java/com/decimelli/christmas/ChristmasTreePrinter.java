@@ -1,3 +1,5 @@
+package com.decimelli.christmas;
+
 import java.io.PrintStream;
 
 public class ChristmasTreePrinter {

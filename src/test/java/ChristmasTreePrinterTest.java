@@ -6,6 +6,8 @@ import java.io.PrintStream;
 
 import org.junit.jupiter.api.Test;
 
+import com.decimelli.christmas.ChristmasTreePrinter;
+
 public class ChristmasTreePrinterTest {
 
 	@Test
