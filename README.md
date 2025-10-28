@@ -9,22 +9,26 @@ Compile with:
 ```
 
 Then my preferred way to run it is in JShell:
-```
+```console
 $ jshell --class-path build/classes/java/main
 |  Welcome to JShell -- Version 25
 |  For an introduction type: /help intro
 
 jshell> import com.decimelli.christmas.ChristmasTreePrinter;
 
-jshell> ChristmasTreePrinter printer = new ChristmasTreePrinter(5);
-printer ==> com.decimelli.christmas.ChristmasTreePrinter@5197848c
+jshell> ChristmasTreePrinter tree = new ChristmasTreePrinter(10);
+x ==> com.decimelli.christmas.ChristmasTreePrinter@31221be2
 
-jshell> printer.print(System.out);
-     *
-    ***
-   *****
-  *******
- *********
-     |****
-      |
+jshell> tree.print(System.out);
+          *
+         ***
+        *****
+       *******
+      *********
+     ***********
+    *************
+   ***************
+  *****************
+ *******************
+          |
 ```
